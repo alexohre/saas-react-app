@@ -1,10 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 function Nav() {
   return (
     <div className="theme-main-menu sticky-menu theme-menu-three">
       <div className="d-flex align-items-center justify-content-center">
-        <div className="logo"><a href="/index-doc.html"><img src="assets/images/logo/deski_01.svg" alt="" /></a></div>
+        <div className="logo">
+          <Link to="/"><img src="assets/images/logo/deski_01.svg" alt="" /></Link>
+        </div>
 
         <nav id="mega-menu-holder" className="navbar navbar-expand-lg">
           <div className="nav-container">
@@ -15,21 +19,21 @@ function Nav() {
               <div className="d-lg-flex justify-content-between align-items-center">
                 <ul className="navbar-nav">
                   <li className="nav-item position-static active">
-                    <a className="nav-link " href="/#" >Home</a>
+                    <Link to="/" className="nav-link " >Home</Link>
                   </li>
 
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="/#" data-toggle="dropdown">Company</a>
+                    <Link to="/#" className="nav-link dropdown-toggle" data-toggle="dropdown">Company</Link>
 
                     <ul className="dropdown-menu">
                       <li>
-                        <a href="/#" className="dropdown-item">News</a>
+                        <Link to="/news" className="dropdown-item">News</Link>
                       </li>
                       <li>
-                        <a href="/#" className="dropdown-item">APIs</a>
+                        <Link to="/#" className="dropdown-item">APIs</Link>
                       </li>
                       <li>
-                        <a href="/#" className="dropdown-item">Services</a>
+                        <Link to="/services" className="dropdown-item">Services</Link>
                       </li>
 
                     </ul>
@@ -37,11 +41,11 @@ function Nav() {
                   </li>
 
                   <li className="nav-item">
-                    <a className="nav-link " href="/#" >Faqs</a>
+                    <Link to="/faqs" className="nav-link " >Faqs</Link>
                   </li>
 
                   <li className="nav-item ">
-                    <a className="nav-link " href="/#" >Contact Us</a>
+                    <Link to="/contact" className="nav-link " >Contact Us</Link>
                   </li>
 
                 </ul>

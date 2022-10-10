@@ -1,7 +1,11 @@
 import React from 'react'
 import Nav from '../shared/Nav';
 import Footer from '../shared/Footer';
-import Preloader from '../components/Preloader'
+// import Preloader from '../components/Preloader';
+import NewsLetter from '../components/NewsLetter';
+import Faqs from '../components/Faqs';
+import Feedback from '../components/Feedback';
+import ScrollTopButton from '../components/ScrollTopButton';
 
 function Home() {
   return (
@@ -9,7 +13,7 @@ function Home() {
       {/* <!-- ===================================================
 				Loading Transition
 			==================================================== --> */}
-      <Preloader />
+      {/* <Preloader /> */}
 
 
       {/* <!-- 
@@ -43,7 +47,6 @@ function Home() {
               <button><img src="assets/images/icon/54.svg" alt="" /></button>
               <select className="form-control" id="exampleFormControlSelect1">
                 <option>All</option>
-                <option>Layout</option>
                 <option>API</option>
                 <option>Doc</option>
               </select>
@@ -245,80 +248,7 @@ function Home() {
 				Client Feedback Slider Two
 			=====================================================
 			--> */}
-      <div className="client-feedback-slider-two mt-180 md-mt-100">
-        <img src="assets/images/shape/78.svg" alt="" className="shapes shape-one" />
-        <img src="assets/images/shape/79.svg" alt="" className="shapes shape-two" />
-        <img src="assets/images/shape/80.svg" alt="" className="shapes shape-three" />
-        <img src="assets/images/shape/81.svg" alt="" className="shapes shape-four" />
-        <img src="assets/images/shape/82.svg" alt="" className="shapes shape-five" />
-        <img src="assets/images/shape/83.svg" alt="" className="shapes shape-six" />
-        {/*  */}
-        <img src="assets/images/shape/84.svg" alt="" className="shapes shape-seven" />
-        <img src="assets/images/shape/85.svg" alt="" className="shapes shape-eight" />
-        <div className="container">
-          <div className="title-style-four text-center mb-100 md-mb-60">
-            <div className="row">
-              <div className="col-lg-7 col-md-9 m-auto">
-                <h6>Feedback</h6>
-                <h2>What’s Our Client Say
-                  <span>About Us <img src="assets/images/shape/line-shape-2.svg" alt="" /></span>
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="slider-content">
-          <div className="clientSliderTwo">
-            <div className="item">
-              <div className="bg-wrapper">
-                <img src="assets/images/logo/logo-8.png" alt="" className="logo" />
-                <p>Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim.</p>
-                <div className="name font-rubik">Rashed Ka.</div>
-                <div className="desig">Founder CreativeGigs</div>
-              </div>
-              {/* <!-- /.bg-wrapper --> */}
-            </div>
-            <div className="item">
-              <div className="bg-wrapper">
-                <img src="assets/images/logo/logo-9.png" alt="" className="logo" />
-                <p>Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim.</p>
-                <div className="name font-rubik">Zubayer Hasan.</div>
-                <div className="desig">CEO & Founder Heloshape</div>
-              </div>
-              {/* <!-- /.bg-wrapper --> */}
-            </div>
-            <div className="item">
-              <div className="bg-wrapper">
-                <img src="assets/images/logo/logo-10.png" alt="" className="logo" />
-                <p>Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim.</p>
-                <div className="name font-rubik">Eh Jewel</div>
-                <div className="desig">Senior Developer</div>
-              </div>
-              {/* <!-- /.bg-wrapper --> */}
-            </div>
-            <div className="item">
-              <div className="bg-wrapper">
-                <img src="assets/images/logo/logo-9.png" alt="" className="logo" />
-                <p>Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim.</p>
-                <div className="name font-rubik">Zubayer Hasan.</div>
-                <div className="desig">CEO & Founder Heloshape</div>
-              </div>
-              {/* <!-- /.bg-wrapper --> */}
-            </div>
-            <div className="item">
-              <div className="bg-wrapper">
-                <img src="assets/images/logo/logo-10.png" alt="" className="logo" />
-                <p>Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim.</p>
-                <div className="name font-rubik">Eh Jewel</div>
-                <div className="desig">Senior Developer</div>
-              </div>
-              {/* <!-- /.bg-wrapper --> */}
-            </div>
-          </div>
-        </div>
-        {/* <!-- /.slider-content --> */}
-      </div>
+      <Feedback />
       {/* <!-- /.client-feedback-slider-two --> */}
 
       {/*  */}
@@ -360,152 +290,7 @@ function Home() {
 
 
       {/*  / */}
-      <div className="faq-classic with-bg">
-        <img src="assets/images/shape/86.svg" alt="" className="shapes shape-one" />
-        <img src="assets/images/shape/87.svg" alt="" className="shapes shape-two" />
-        <img src="assets/images/shape/88.svg" alt="" className="shapes shape-three" />
-        <img src="assets/images/shape/89.svg" alt="" className="shapes shape-four" />
-        <img src="assets/images/shape/90.svg" alt="" className="shapes shape-five" />
-        <img src="assets/images/shape/91.svg" alt="" className="shapes shape-six" />
-        <div className="container">
-          <div className="title-style-four text-center mb-100 md-mb-70">
-            <div className="row">
-              <div className="col-lg-7 m-auto">
-                <h6>FAQ’s</h6>
-                <h2>
-                  <span>Questions & Answers<img src="assets/images/shape/line-shape-2.svg" alt="" /></span>
-                </h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-6">
-              {/* <!-- ================== FAQ Panel ================ --> */}
-              <div id="accordion">
-                <div className="card">
-                  <div className="card-header" id="headingOne">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        How the affiliate programe works?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseOne" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingThree">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        How delete my account?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingFour">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        Ho to invite people with refferel link?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseFour" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingFive">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        Is ios app available for the iphone?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseFive" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              {/* <!-- ================== FAQ Panel ================ --> */}
-              <div id="accordiontwo">
-                <div className="card">
-                  <div className="card-header" id="headingOne2">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        How the affiliate programe works?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseOne2" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingTwo2">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        How to create customer panel?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo2" className="collapse show">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingThree2">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        How delete my account?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree2" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-header" id="headingFour2">
-                    <h5 className="mb-0">
-                      <button className="btn btn-link">
-                        Ho to invite people with refferel link?
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseFour2" className="collapse">
-                    <div className="card-body">
-                      <p>mea case duis tollit et. Etiam nusquam set minium eu sea, ei tale paulo elab. Noluisse mnesarch Et is vero incorrupte eos deserunt quaeren.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Faqs />
       {/* <!-- /.faq-classic --> */}
 
 
@@ -514,33 +299,7 @@ function Home() {
 				Fancy Short Banner Four
 			=====================================================
 			--> */}
-      <div className="fancy-short-banner-four">
-        <div className="container">
-          <div className="bg-wrapper">
-            <div className="row align-items-center">
-              <div className="col-lg-6">
-                <div className="title">
-                  <h6>Subscribe Now</h6>
-                  <h2>Subscriber to our Newsletter</h2>
-                </div>
-                {/* <!-- /.title-style-one --> */}
-              </div>
-              <div className="col-lg-6">
-                <div className="form-wrapper">
-                  <form action="#">
-                    <input type="text" placeholder="Email address" />
-                    <button>Subscribe</button>
-                  </form>
-                  <p className="font-rubik">Already a member? <a href="/login.html">Sign in.</a></p>
-                </div>
-                {/* <!-- /.form-wrapper --> */}
-              </div>
-            </div>
-          </div>
-          {/* <!-- /.bg-wrapper --> */}
-        </div>
-        {/* <!-- /.container --> */}
-      </div>
+      <NewsLetter />
       {/* <!-- /.fancy-short-banner-four --> */}
 
 
@@ -556,9 +315,7 @@ function Home() {
 
 
       {/* <!-- Scroll Top Button --> */}
-      <button className="scroll-top">
-        <i className="fa fa-angle-up" aria-hidden="true"></i>
-      </button>
+      <ScrollTopButton />
 
 
     </div>
