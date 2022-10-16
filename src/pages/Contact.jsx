@@ -1,6 +1,6 @@
 import React from 'react'
 import ScrollTopButton from '../components/ScrollTopButton'
-import Preloader from '../components/Preloader'
+// import Preloader from '../components/Preloader'
 import Footer from '../shared/Footer'
 import Nav from '../shared/Nav'
 import NewsLetter from '../components/NewsLetter'
@@ -12,7 +12,7 @@ function Contact() {
       {/* <!-- ===================================================
       Loading Transition
 			==================================================== --> */}
-      <Preloader />
+      {/* <Preloader /> */}
 
 
       {/* <!--

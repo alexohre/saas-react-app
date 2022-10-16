@@ -83,7 +83,7 @@ function Services() {
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200">
               <div class="block-style-twentyTwo" onclick="location.href='service-detailsV1.html';">
                 <div class="icon d-flex align-items-center justify-content-center" style={{ background: "#FFEBDB;" }}><img src="assets/images/icon/132.svg" alt="" /></div>
-                <h4>Wp Development</h4>
+                <h4>SOftware Development</h4>
                 <p>Duis aute irure dolor  reprehen derit in voluptat velit.</p>
               </div>
               {/* <!-- /.block-style-twentyTwo --> */}
@@ -99,7 +99,7 @@ function Services() {
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
               <div class="block-style-twentyTwo" onclick="location.href='service-detailsV1.html';">
                 <div class="icon d-flex align-items-center justify-content-center" style={{ background: "#ECF1FF;" }}><img src="assets/images/icon/184.svg" alt="" /></div>
-                <h4>Marketing</h4>
+                <h4>Digital Marketing</h4>
                 <p>Duis aute irure dolor  reprehen derit in voluptat velit.</p>
               </div>
               {/* <!-- /.block-style-twentyTwo --> */}

@@ -52,7 +52,7 @@ function Nav() {
 
                 <ul className="right-widget user-login-button d-flex align-items-center justify-content-center">
                   <li>
-                    <a href="/login.html" className="signIn-action d-flex align-items-center">
+                    <a href="/login" className="signIn-action d-flex align-items-center">
                       <img src="assets/images/icon/52.svg" alt="" />
                       <span>Login</span>
                     </a>
